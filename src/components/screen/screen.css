@@ -1,0 +1,11 @@
+#screen{
+    position: relative;
+    text-align: right;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-size: var(--screen-font);
+    border-radius: var(--border-radius);
+    padding: 1%;    
+    box-shadow: inset 5px 5px 10px #aaaaac, 
+                inset -5px -5px 15px #f4f4f4;
+}

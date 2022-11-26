@@ -1,0 +1,24 @@
+.side-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(0.67*20vw); /*Number button width (number-keyboard.css): 30% of parent width*/
+}
+
+.operation-button{
+    flex-grow: 1;
+    min-width: calc(50% - 2%);    
+}
+
+.operation-button:last-child{
+    width: 100%;
+    background-color: var(--last-op-button);
+    box-shadow: 0px 0px 25px 5px var(--button-bg-dark),
+                -2px -2px 5px var(--last-op-button-dark);
+}
+.operation-button:last-child:hover{
+    width: 100%;
+    background-color: #C8F902;
+    box-shadow: 0px 0px 25px 5px var(--button-bg-dark),
+                -2px -2px 5px var(--last-op-button-hover);   
+}

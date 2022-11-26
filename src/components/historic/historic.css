@@ -1,0 +1,22 @@
+#historic{
+    height: 100%;
+    position: relative;
+    left: 15%;
+    min-width: 35%;
+    max-width: 35%;
+}
+#historic-container:empty{
+    display: none;
+}
+#historic-container{
+    position: relative;
+    padding: 2% 4%;
+    
+    font-size: var(--historic-font);
+    text-align: left;
+    
+    background-color: var(--bg-color);
+    border: 3px var(--font-color) solid;    
+    border-radius: var(--border-radius);
+    box-shadow: 0px 0px 50px 5px var(--font-color);
+}

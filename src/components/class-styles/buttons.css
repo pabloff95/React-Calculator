@@ -1,0 +1,19 @@
+.button{
+    background-color: var(--bg-color);
+    margin: 1%;
+    color: var(--font-color);   
+    position: relative;
+    font-size: var(--button-font);
+    border: 0px;
+    border-radius: var(--border-radius);
+    box-shadow: 0px 0px 25px 5px var(--button-bg-dark),
+                -2px -2px 5px var(--button-bg-light);          
+    transition: all .15s;
+}
+.button:hover{
+    background-color: var(--button-bg-hover);
+    box-shadow: 0px 0px 25px 5px var(--button-bg-hover-dark),
+                -2px -2px 5px var(--button-bg-hover);   
+    cursor: pointer;
+    font-weight: bolder;
+}
